@@ -1,0 +1,70 @@
+Run started: Tue Aug 26 23:38:17 +0530 2025
+Parameters: N=10000000 x=1.0
+=== Serial ===
+Serial: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.024683 seconds
+==== sum_race ====
+--- threads=1 ---
+Race: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.024536 seconds
+--- threads=2 ---
+Race: N=10000000 x=1.000000 S=-1.657842e+20
+Time taken: 0.034562 seconds
+--- threads=4 ---
+Race: N=10000000 x=1.000000 S=-1.487519e+20
+Time taken: 0.026198 seconds
+--- threads=8 ---
+Race: N=10000000 x=1.000000 S=-3.144662e+19
+Time taken: 0.067407 seconds
+--- threads=16 ---
+Race: N=10000000 x=1.000000 S=-3.702021e+19
+Time taken: 0.080018 seconds
+==== sum_critical ====
+--- threads=1 ---
+Critical: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.143229 seconds
+--- threads=2 ---
+Critical: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.314423 seconds
+--- threads=4 ---
+Critical: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.946820 seconds
+--- threads=8 ---
+Critical: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 1.571558 seconds
+--- threads=16 ---
+Critical: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 1.800052 seconds
+==== sum_atomic ====
+--- threads=1 ---
+Atomic: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.110244 seconds
+--- threads=2 ---
+Atomic: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.308702 seconds
+--- threads=4 ---
+Atomic: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.567773 seconds
+--- threads=8 ---
+Atomic: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.867734 seconds
+--- threads=16 ---
+Atomic: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 1.006513 seconds
+==== sum_reduction ====
+--- threads=1 ---
+Reduction: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.029753 seconds
+--- threads=2 ---
+Reduction: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.034355 seconds
+--- threads=4 ---
+Reduction: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.018354 seconds
+--- threads=8 ---
+Reduction: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.006401 seconds
+--- threads=16 ---
+Reduction: N=10000000 x=1.000000 S=-3.333332e+20
+Time taken: 0.035245 seconds
+Run finished: Tue Aug 26 23:38:33 +0530 2025

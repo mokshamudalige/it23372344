@@ -1,0 +1,52 @@
+Run started: Tue Aug 26 23:17:57 +0530 2025
+Serial run (baseline):
+Pi(serial) = 3.141592653590
+==== lab04_critical ====
+--- threads=1 ---
+Pi(critical) = 3.141592653590
+Time taken: 1.248725 seconds
+--- threads=2 ---
+Pi(critical) = 3.141592653590
+Time taken: 2.117603 seconds
+--- threads=4 ---
+Pi(critical) = 3.141592653590
+Time taken: 6.657525 seconds
+--- threads=8 ---
+Pi(critical) = 3.141592653590
+Time taken: 23.207893 seconds
+--- threads=16 ---
+Pi(critical) = 3.141592653589
+Time taken: 28.491957 seconds
+==== lab04_atomic ====
+--- threads=1 ---
+Pi(atomic) = 3.141592653590
+Time taken: 0.954233 seconds
+--- threads=2 ---
+Pi(atomic) = 3.141592653590
+Time taken: 2.021545 seconds
+--- threads=4 ---
+Pi(atomic) = 3.141592653590
+Time taken: 4.925957 seconds
+--- threads=8 ---
+Pi(atomic) = 3.141592653590
+Time taken: 11.719721 seconds
+--- threads=16 ---
+Pi(atomic) = 3.141592653590
+Time taken: 12.192799 seconds
+==== lab04_reduction ====
+--- threads=1 ---
+Pi(reduction) = 3.141592653590
+Time taken: 0.239994 seconds
+--- threads=2 ---
+Pi(reduction) = 3.141592653590
+Time taken: 0.176661 seconds
+--- threads=4 ---
+Pi(reduction) = 3.141592653590
+Time taken: 0.154258 seconds
+--- threads=8 ---
+Pi(reduction) = 3.141592653590
+Time taken: 0.146299 seconds
+--- threads=16 ---
+Pi(reduction) = 3.141592653590
+Time taken: 0.074802 seconds
+Run finished: Tue Aug 26 23:19:46 +0530 2025

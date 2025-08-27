@@ -1,0 +1,4 @@
+schedule,avg_time
+static,0.050943
+dynamic,1000,0.0517877
+guided,1000,0.0280816
